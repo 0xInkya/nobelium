@@ -17,7 +17,7 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+            © {BLOG.author}
           </p>
           {/* <Vercel /> // Remove this line */}
         </div>
