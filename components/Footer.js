@@ -1,4 +1,5 @@
 import { useConfig } from '@/lib/config'
+// import Vercel from '@/components/Vercel' // Remove this line
 
 const Footer = ({ fullWidth }) => {
   const BLOG = useConfig()
@@ -18,6 +19,7 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
+          {/* <Vercel /> // Remove this line */}
         </div>
       </div>
     </div>
